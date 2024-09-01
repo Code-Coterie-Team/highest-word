@@ -28,4 +28,7 @@ function longestWord(){
         }
     }
     console.log("Longest word is: " + longestWordofSentence);
+
+    let result = document.getElementById("result");
+    result.textContent = longestWordofSentence;
 }
