@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Longest Word</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inputBox{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        input{
+            margin-bottom: 10px;
+        }
+
+        .result{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(229, 226, 226, 0.779);
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" name="" id="sentence">
-    <button type="submit" onclick="longestWord()">Click to find the longest word in the sentence</button>
-
-    <div id="result"></div>
+    <div class="inputBox">
+        <input type="text" name="" id="sentence">
+        <button type="submit" onclick="longestWord()">Click to find the longest word in the sentence</button>
+    </div>
+    
+    <span id="result"></span>
     
     <script src="scripts.js"></script>
 </body>

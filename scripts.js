@@ -30,5 +30,6 @@ function longestWord(){
     console.log("Longest word is: " + longestWordofSentence);
 
     let result = document.getElementById("result");
+    result.classList.add('result');
     result.textContent = longestWordofSentence;
 }
