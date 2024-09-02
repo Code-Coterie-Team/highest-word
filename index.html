@@ -32,10 +32,10 @@
     </style>
 </head>
 <body>
-    <div class="inputBox">
+    <form class="inputBox" onsubmit="longestWord(); return false">
         <input type="text" name="" id="sentence">
-        <button type="submit" onclick="longestWord()">Click to find the longest word in the sentence</button>
-    </div>
+        <button type="submit">Click to find the longest word in the sentence</button>
+    </form>
     
     <span id="result"></span>
     
